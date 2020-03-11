@@ -164,7 +164,3 @@ Paid Apps:
 "News"	17
 "Productivity"	116
 "Lifestyle"	50
-
-
-## Deliverables 
-You need to submit a `.sql` file that includes the queries used to answer the questions above, as well as an `.md` file including your answers. 
