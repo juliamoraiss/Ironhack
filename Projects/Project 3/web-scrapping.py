@@ -28,10 +28,10 @@ lst_med = ['ibuprofeno', 'dipirona', 'paracetamol', 'diclofenaco', 'nimesulida']
 
 
 def create_df_preco(med):
-    url = f'https://busca.drogasil.com.br/search?w={med}&cnt=20'
+    url = f'https://busca.drogasil.com.br/search?w={med}&cnt=100'
     response = requests.get(url)
     html = response.content
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html, 'lxml')
     df_remedio_preco = pd.DataFrame()
     
         
